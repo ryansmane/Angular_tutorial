@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './components/heroes.component'
 import { HeroDetail } from './components/hero-detail.component'
 import { Message } from './components/message.component'
+import { Dashboard } from './components/dashboard.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetail,
-    Message
+    Message,
+    Dashboard
   ],
   imports: [
     BrowserModule,
